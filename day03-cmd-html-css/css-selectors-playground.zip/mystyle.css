@@ -1,0 +1,40 @@
+#georgia { font-family: Georgia, serif;border-bottom: 1px solid #c7c7c7; font-size: li:nth-child(-n+5); } 
+}
+#palatino-linotype { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; ;border-bottom: 1px solid #c7c7c7;  }
+#times-new-roman { font-family: "Times New Roman", Times, serif ;border-bottom: 1px solid #c7c7c7;  }
+#arial { font-family: Arial, Helvetica, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#arial-black { font-family: "Arial Black", Gadget, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#comic-sans-ms { font-family: "Comic Sans MS", cursive, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#impact { font-family: Impact, Charcoal, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#lucida-sans-unicode { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#tahoma { font-family: Tahoma, Geneva, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#trebuchet-ms { font-family: "Trebuchet MS", Helvetica, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#verdana { font-family: Verdana, Geneva, sans-serif ;border-bottom: 1px solid #c7c7c7; }
+#courier-new { font-family: "Courier New", Courier, monospace ;border-bottom: 1px solid #c7c7c7; }
+#lucida-console { font-family: "Lucida Console", Monaco, monospace ;border-bottom: 1px solid #c7c7c7; }
+
+header {
+    background-color: #0abbbb;
+}
+
+h1{
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.code{
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.Example{
+    font-size: .75em;
+}
+
+code{
+    background-color: #e7e7e7;
+}
