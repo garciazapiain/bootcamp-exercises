@@ -1,0 +1,22 @@
+@import "components/nav.scss";
+@import "components/documents.scss";
+
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: grey;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem;
+}
+
+  body{
+    margin:0;
+    width: 100%;
+}
+
+
+
+ 

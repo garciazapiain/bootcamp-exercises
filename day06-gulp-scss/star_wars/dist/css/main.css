@@ -1,0 +1,36 @@
+a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none; }
+
+.banner {
+  background: url("../../img/welcome.jpg") center/cover no-repeat;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner h1 {
+  color: white;
+  font-size: 4rem; }
+
+.banner h2 {
+  color: grey;
+  text-align: center;
+  font-size: 2rem; }
+
+.title {
+  flex-direction: column; }
+
+* {
+  box-sizing: border-box; }
+
+header {
+  background-color: grey;
+  margin: 0 auto;
+  display: flex;
+  padding: 1rem; }
+
+body {
+  margin: 0;
+  width: 100%; }

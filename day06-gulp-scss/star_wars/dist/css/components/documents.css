@@ -1,0 +1,18 @@
+.banner {
+  background: url("../../img/welcome.jpg") center/cover no-repeat;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner h1 {
+  color: white;
+  font-size: 4rem; }
+
+.banner h2 {
+  color: grey;
+  text-align: center;
+  font-size: 2rem; }
+
+.title {
+  flex-direction: column; }

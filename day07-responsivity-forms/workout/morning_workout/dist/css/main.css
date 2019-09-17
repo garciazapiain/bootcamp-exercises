@@ -1,0 +1,28 @@
+body {
+  background: url("../img/got-bg.jpg") center/cover no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh; }
+
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke; }
+
+.topright {
+  text-align: right;
+  padding: 2rem 2rem 15rem 2rem; }
+
+.bottomleft {
+  padding: 5rem 2rem 2rem 2rem;
+  text-align: left; }
+
+h1 {
+  font-size: 4rem;
+  font-family: 'MedievalSharp';
+  font-weight: 900; }
+
+h2 {
+  font-size: 2rem;
+  font-family: 'MedievalSharp'; }
