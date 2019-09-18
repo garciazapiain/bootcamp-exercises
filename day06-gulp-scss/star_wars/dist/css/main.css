@@ -22,15 +22,61 @@ a {
 .title {
   flex-direction: column; }
 
+.container {
+  text-align: center; }
+
+section.plot h2 {
+  text-align: left; }
+
+section.plot p {
+  text-align: left; }
+
+section.plot .content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex; }
+
+section.plot img {
+  width: 20em;
+  margin-right: 1em; }
+
+section.characters {
+  background: url("../../img/rey-standing.jpg") center/cover no-repeat;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  section.characters .character_image {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap; }
+  section.characters img {
+    width: 7em;
+    margin-right: 1em;
+    border-radius: 100%; }
+    section.characters img:nth-child(1), section.characters img:nth-child(7) {
+      width: 4em; }
+    section.characters img:nth-child(2), section.characters img:nth-child(6) {
+      width: 5em; }
+    section.characters img:nth-child(3), section.characters img:nth-child(5) {
+      width: 6em; }
+    section.characters img:nth-child(4) {
+      width: 7em; }
+
 * {
   box-sizing: border-box; }
 
 header {
-  background-color: grey;
+  background-color: darkgray;
   margin: 0 auto;
   display: flex;
   padding: 1rem; }
 
 body {
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  background-color: lightgray; }
+
+/*# sourceMappingURL=main.css.map */

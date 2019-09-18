@@ -1,0 +1,1 @@
+{"version":3,"file":"nav.css","sources":["components/nav.scss"],"sourcesContent":["a {\n    padding: 1rem;\n    color: white;\n    text-decoration: none;\n}\n\n\n\n\n\n      "],"names":[],"mappings":"AAAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI,GACxB"}
