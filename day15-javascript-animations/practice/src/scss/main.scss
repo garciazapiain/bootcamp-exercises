@@ -1,0 +1,19 @@
+$red: #ff0000;
+ 
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.875em;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 2em;
+    height: 100vh;
+}
+
+.box {
+    background-color: azure;
+    transform: skewX(30deg);
+
+    }
+

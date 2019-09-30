@@ -1,17 +1,23 @@
-const userarray=['juan','ignacio'];
+const userarray=['juan','ignacio']
+const passwordarray=['1234','open']
 const users = document.querySelector('#users');
-const result =document.querySelector('#result')
-const counter=0
+const password=document.querySelector('#password');
+const result =document.querySelector('#result');
 
 const userCheck = ()=>{
-    for(i=0; i < userarray.length; i++){
-        if (userarray[i]===users);{
-        result.textContent="Access granted"
-        counter=counter + 1
+    const userindex=userarray.indexOf(users.value);
+    console.log('hellooo');
+    console.log(userindex);
+    if (userindex > -1) {
+        console.log('hey');
+        if(passwordarray[userindex]===password.value){
+            result.textContent="Access granted";}
+        else{
+            result.textContent="Access denied";
         }
-    }
-    if (counter<0){
-        result.textContent="Access denied"
+     }
+    else{
+        result.textContent="Access denied";
     }
 };
 
@@ -21,5 +27,18 @@ document.addEventListener('DOMContentLoaded',
     myBtn.addEventListener('click',userCheck);
 });
 
+/*
+const userCheck = ()=>{
+    for(i=0; i < userarray.length; i++){
+        if (userarray[i]===users){
+        result.textContent="Access granted";
+        counter=counter + 1;
+        break;
+        }
+    }
+    if (counter===0){
+        result.textContent="Access denied";
+    }
+};
 
-
+*/

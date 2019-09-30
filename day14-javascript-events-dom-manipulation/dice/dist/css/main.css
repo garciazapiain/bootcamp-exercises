@@ -7,51 +7,69 @@ body {
   padding: 0 2em;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 h1 {
   color: #ff0000;
   text-align: left; }
 
+.dices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  width: 60%; }
+
 .side1 {
   background-image: url(../img/side1.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 
 .side2 {
   background-image: url(../img/side2.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 
 .side3 {
   background-image: url(../img/side3.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 
 .side4 {
   background-image: url(../img/side4.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 
 .side5 {
   background-image: url(../img/side5.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 
 .side6 {
   background-image: url(../img/side6.png);
-  width: 50vmin;
-  height: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
   background-position: center;
   background-size: cover; }
 

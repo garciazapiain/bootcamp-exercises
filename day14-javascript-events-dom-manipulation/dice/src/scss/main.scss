@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     padding: 0 2em;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -17,50 +18,58 @@ h1 {
     text-align: left;
 }
 
+.dices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+}
+
 .side1{
     background-image: url(../img/side1.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }
 
 .side2{
     background-image: url(../img/side2.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }
 
 .side3{
     background-image: url(../img/side3.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }
 
 .side4{
     background-image: url(../img/side4.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }
 
 .side5{
     background-image: url(../img/side5.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }
 
 .side6{
     background-image: url(../img/side6.png);
-    width:50vmin;
-    height: 50vmin;
+    width:20vmin;
+    height: 20vmin;
     background-position: center;
     background-size: cover;
 }

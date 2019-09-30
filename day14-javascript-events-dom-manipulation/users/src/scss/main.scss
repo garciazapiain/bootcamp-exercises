@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     padding: 0 2em;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -17,53 +18,31 @@ h1 {
     text-align: left;
 }
 
-.side1{
-    background-image: url(../img/side1.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
+.users{
+    border: 2px solid black;
+    width: 10em;
 }
 
-.side2{
-    background-image: url(../img/side2.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
+.password{
+    border: 2px solid black;
+    width: 10em;
 }
 
-.side3{
-    background-image: url(../img/side3.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
+.result{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 20em;
+    background: green;
+    color: white;
+    p{
+        font-size: 3rem;
+    }
 }
 
-.side4{
-    background-image: url(../img/side4.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
+.button{
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    width: 10em;
 }
-
-.side5{
-    background-image: url(../img/side5.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
-}
-
-.side6{
-    background-image: url(../img/side6.png);
-    width:50vmin;
-    height: 50vmin;
-    background-position: center;
-    background-size: cover;
-}
-
-
-
