@@ -334,13 +334,14 @@ Transformation
 1) From the original array create a new array with a reversed order of the elements.
 2) From the original array create a new array with the elements randomly shuffled. Use the Math.random method to help you with randomness.
 3) From the original array create a new array with the elements sorted from lowest to highest.
+*/
 
-1)
 let reverse = numbers.reverse();
 console.log(reverse);
-
+/*
 2)
 */
+/*
 numberss=[1,2,3,4]
 
 console.log ('Before is ' + numberss)

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.timer {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 2em;
+  height: 150px;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.counter{
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.reset, .start {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  background-color: grey;
+  color:white;
+  text-align: center;
+  align-items: center;
+  margin: 1em;
+}
